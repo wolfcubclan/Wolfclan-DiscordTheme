@@ -2,7 +2,7 @@
  * @name Клан Волчат
  * @author NikSne
  * @description Тема Discord от Клана Волчат
- * @version 1.0.0
+ * @version 1.0.2
  * @invite SHCGnPAPXU
  * @authorId 760511113795207168
  * @source https://github.com/Wolfclan-DEV/Wolfclan-DiscordTheme
@@ -479,7 +479,7 @@ body,button,input,select,textarea,::placeholder{
     text-shadow:0 0 3px #000
 }
 .typeWindows__5fa63>.wordmark__0d178:after{
-    content:"v1.0.0";
+    content:"v1.0.2";
     color:rgba(255,255,255,.3);
     font-family:var(--code-font);
     font-size:10px
@@ -1098,7 +1098,7 @@ button.button__4f306.disabled_dc5630>.contents_fb6220>svg{
     transform:translateX(50%)
 }
 .theme-dark .container_ca50b9:after{
-    content:"v1.0.0";
+    content:"v1.0.2";
     left:50%;
     text-align:left;
     opacity:0;
@@ -8134,4 +8134,8 @@ div#magane div.stickerWindow div.stickers,div#magane div.stickerWindow div.packs
 }
 .defaultContainer__8ed0b > div > button {
     background-color: var(--folder-bg-color-preview) !important;
+}
+
+#vc-spotify-player {
+ background: rgba(0,0,0,0) !important;
 }
