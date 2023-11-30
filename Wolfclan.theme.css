@@ -2,7 +2,7 @@
  * @name Клан Волчат
  * @author NikSne
  * @description Тема Discord от Клана Волчат
- * @version 1.0.3
+ * @version 1.0.4
  * @invite SHCGnPAPXU
  * @authorId 760511113795207168
  * @source https://github.com/Wolfclan-DEV/Wolfclan-DiscordTheme
@@ -32,8 +32,7 @@
     --font-display: var(--main-font);
     --text-normal: rgb(220, 221, 222);
     --text-muted: rgb(114, 118, 125);
-    --channels-width: 220px;
-    --members-width: 240px;
+    --channels-width: 250px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
     --background-image: url(https://cdn.discordapp.com/attachments/1151614727093493821/1177386947468087346/bg.png?size=1024&width=0&height=256);
@@ -480,7 +479,7 @@ body,button,input,select,textarea,::placeholder{
     text-shadow:0 0 3px #000
 }
 .typeWindows__5fa63>.wordmark__0d178:after{
-    content:"v1.0.3";
+    content:"v1.0.4";
     color:rgba(255,255,255,.3);
     font-family:var(--code-font);
     font-size:10px
@@ -1099,7 +1098,7 @@ button.button__4f306.disabled_dc5630>.contents_fb6220>svg{
     transform:translateX(50%)
 }
 .theme-dark .container_ca50b9:after{
-    content:"v1.0.3";
+    content:"v1.0.4";
     left:50%;
     text-align:left;
     opacity:0;
