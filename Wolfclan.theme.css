@@ -35,7 +35,7 @@
     --channels-width: 250px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://cdn.discordapp.com/attachments/1151614727093493821/1177386947468087346/bg.png?size=1024);
+    --background-image: url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/bg.png);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://cdn.discordapp.com/icons/849725155973922846/a_22eb7a0aa4aa3e676f1b2beca9675f78.gif?size=256);
+    --home-icon: url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icon.gif);
     --home-position: center;
     --home-size: 50px;
     --popout-color: rgba(0, 0, 0, 0.8);
