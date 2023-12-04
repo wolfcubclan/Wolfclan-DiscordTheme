@@ -2,7 +2,7 @@
  * @name Клан Волчат
  * @author NikSne
  * @description Тема Discord от Клана Волчат
- * @version 1.1.0
+ * @version 1.1.1
  * @invite SHCGnPAPXU
  * @authorId 760511113795207168
  * @source https://github.com/wolfcubclan/Wolfclan-DiscordTheme
@@ -12,9 +12,6 @@
 :root{
     --main-color: #3da1a4;
     --hover-color: #24eacc;
-    --folder-icon-color: var(--hover-color);
-    --folder-bg-color: #3da1a466;
-    --folder-bg-color-preview: #3da1a4;
     --success-color: #43b581;
     --danger-color: #982929;
     --channel-unread: var(--main-color);
@@ -36,7 +33,7 @@
     --channels-width: 250px;
     --background-shading: 100%;
     --background-overlay: rgba(0, 0, 0, 0.6);
-    --background-image: url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/bg.png);
+    --background-image: url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/bg.png);
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
@@ -86,7 +83,7 @@
     --user-modal-grayscale: var(--background-grayscale);
     --user-modal-sepia: var(--background-sepia);
     --user-modal-blur: calc(var(--background-blur) + 3px);
-    --home-icon: url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icon.gif);
+    --home-icon: url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icon.gif);
     --home-position: center;
     --home-size: 50px;
     --popout-color: rgba(0, 0, 0, 0.8);
@@ -94,7 +91,9 @@
     --bd-blue: var(--main-color);
     --bd-blue-hover: var(--hover-color);
     --bd-blue-active: var(--hover-color);
-    --font-primary: var(--main-font)
+    --font-primary: var(--main-font);
+    --folder-color: var(--main-color);
+    --folder-background-color: #3da1a466
 }
 @keyframes cv-fade-in{
     from{
@@ -480,7 +479,7 @@ body,button,input,select,textarea,::placeholder{
     text-shadow:0 0 3px #000
 }
 .typeWindows__5fa63>.wordmark__0d178:after{
-    content:"v1.1.0";
+    content:"v1.1.1";
     color:rgba(255,255,255,.3);
     font-family:var(--code-font);
     font-size:10px
@@ -1099,7 +1098,7 @@ button.button__4f306.disabled_dc5630>.contents_fb6220>svg{
     transform:translateX(50%)
 }
 .theme-dark .container_ca50b9:after{
-    content:"v1.1.0";
+    content:"v1.1.1";
     left:50%;
     text-align:left;
     opacity:0;
@@ -3259,38 +3258,38 @@ textarea::-webkit-scrollbar{
     height:30px;
     box-sizing:border-box;
     padding-left:30px;
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file.svg);
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file.svg);
     background-position:center;
     background-size:100%;
     background-repeat:no-repeat;
     opacity:.5
 }
 :not(.embedWrapper_c143d9)>[title=unknown].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_upload.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_upload.svg)
 }
 [title=document].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_document.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_document.svg)
 }
 [title=archive].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_archive.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_archive.svg)
 }
 [title=code].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_code.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_code.svg)
 }
 [title=webcode].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_webcode.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_webcode.svg)
 }
 [title=ai].icon__30aa7,[title=ps].icon__30aa7,[title=photoshop].icon__30aa7,[title=sketch].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_image.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_image.svg)
 }
 [title=ae].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_video.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_video.svg)
 }
 [title=spreadsheet].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_table.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_table.svg)
 }
 [title=acrobat].icon__30aa7{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_pdf.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_pdf.svg)
 }
 .fileNameLink__995d3{
     color:var(--main-color);
@@ -4107,7 +4106,7 @@ code{
     content:"";
     width:36px;
     height:36px;
-    background:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/file_music.svg) center/100% no-repeat;
+    background:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/file_music.svg) center/100% no-repeat;
     opacity:.5
 }
 .audioMetadata_e546a8 .metadataSize__42428{
@@ -4755,7 +4754,7 @@ code{
     transform:scale(0.95)
 }
 .connectedAccountVerifiedIcon_db6dbd{
-    background:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/verified.svg) center/18px no-repeat;
+    background:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/verified.svg) center/18px no-repeat;
     opacity:.5;
     z-index:1
 }
@@ -4766,7 +4765,7 @@ code{
     display:none
 }
 .connectedAccountOpenIcon_df549d{
-    background:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/popout.svg) center/18px no-repeat;
+    background:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/popout.svg) center/18px no-repeat;
     opacity:.3;
     transition:all .15s ease-in-out;
     transform:none
@@ -6511,7 +6510,7 @@ code{
     right:0;
     left:0;
     bottom:0;
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/upload_image.svg);
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/upload_image.svg);
     background-repeat:no-repeat;
     background-position:50%;
     filter:brightness(0) invert(1);
@@ -6578,191 +6577,191 @@ code{
     width:24px
 }
 .sidebar__9e3e2 [aria-controls=my-account-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/person.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/person.svg)
 }
 .sidebar__9e3e2 [aria-controls=profile-customization-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/user_profile.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/user_profile.svg)
 }
 .sidebar__9e3e2 [aria-controls="privacy-&-safety-tab"].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/security.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/security.svg)
 }
 .sidebar__9e3e2 [aria-controls=family-center-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/family.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/family.svg)
 }
 .sidebar__9e3e2 [aria-controls=authorized-apps-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/apps.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/apps.svg)
 }
 .sidebar__9e3e2 [aria-controls=sessions-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/devices.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/devices.svg)
 }
 .sidebar__9e3e2 [aria-controls=connections-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/link.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/link.svg)
 }
 .sidebar__9e3e2 [aria-controls=settings-clips-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/clips.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/clips.svg)
 }
 .sidebar__9e3e2 [aria-controls=friend-requests-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/person_add.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/person_add.svg)
 }
 .sidebar__9e3e2 [aria-controls=discord-nitro-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/nitro.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/nitro.svg)
 }
 .sidebar__9e3e2 [aria-controls=nitro-server-boost-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/server_boost.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/server_boost.svg)
 }
 .sidebar__9e3e2 [aria-controls=subscriptions-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/subscriptions.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/subscriptions.svg)
 }
 .sidebar__9e3e2 [aria-controls=library-inventory-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/gift.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/gift.svg)
 }
 .sidebar__9e3e2 [aria-controls=billing-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/payment.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/payment.svg)
 }
 .sidebar__9e3e2 [aria-controls=appearance-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/camera.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/camera.svg)
 }
 .sidebar__9e3e2 [aria-controls=accessibility-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/accessibility.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/accessibility.svg)
 }
 .sidebar__9e3e2 [aria-controls="voice-&-video-tab"].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/mic.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/mic.svg)
 }
 .sidebar__9e3e2 [aria-controls="text-&-images-tab"].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/chat.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/chat.svg)
 }
 .sidebar__9e3e2 [aria-controls=notifications-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/notifications.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/notifications.svg)
 }
 .sidebar__9e3e2 [aria-controls=keybinds-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/keyboard.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/keyboard.svg)
 }
 .sidebar__9e3e2 [aria-controls=language-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/language.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/language.svg)
 }
 .sidebar__9e3e2 [aria-controls=windows-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/windows.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/windows.svg)
 }
 .sidebar__9e3e2 [aria-controls=linux-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/linux.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/linux.svg)
 }
 .sidebar__9e3e2 [aria-controls=streamer-mode-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/videocam.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/videocam.svg)
 }
 .sidebar__9e3e2 [aria-controls=advanced-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/bug.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/bug.svg)
 }
 .sidebar__9e3e2 [aria-controls=activity-privacy-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/controller-off.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/controller-off.svg)
 }
 .sidebar__9e3e2 [aria-controls=game-activity-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/games.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/games.svg)
 }
 .sidebar__9e3e2 [aria-controls=overlay-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/aspect_ratio.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/aspect_ratio.svg)
 }
 .sidebar__9e3e2 [aria-controls=changelog-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/history.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/history.svg)
 }
 .sidebar__9e3e2 [aria-controls=hypesquad-online-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/hypesquad.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/hypesquad.svg)
 }
 .sidebar__9e3e2 [aria-controls=experiments-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/bug.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/bug.svg)
 }
 .sidebar__9e3e2 [aria-controls=developer-options-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/code_braces.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/code_braces.svg)
 }
 .sidebar__9e3e2 [aria-controls=hotspot-options-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/insights.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/insights.svg)
 }
 .sidebar__9e3e2 [aria-controls=dismissible-content-options-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/notifications.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/notifications.svg)
 }
 .sidebar__9e3e2 [aria-controls=startuptimings-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/clock.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/clock.svg)
 }
 .sidebar__9e3e2 [aria-controls=payment-flow-modals-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/payment.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/payment.svg)
 }
 .sidebar__9e3e2 [aria-controls=text-component-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/chat.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/chat.svg)
 }
 
 .sidebar__9e3e2 [aria-controls=overview-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/info.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/info.svg)
 }
 .sidebar__9e3e2 [aria-controls=roles-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/flag.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/flag.svg)
 }
 .sidebar__9e3e2 [aria-controls=emoji-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/emoji.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/emoji.svg)
 }
 .sidebar__9e3e2 [aria-controls=stickers-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/sticker.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/sticker.svg)
 }
 .sidebar__9e3e2 [aria-controls=soundboard-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/music.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/music.svg)
 }
 .sidebar__9e3e2 [aria-controls=widget-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/widgets.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/widgets.svg)
 }
 .sidebar__9e3e2 [aria-controls=guild_templates-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/website.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/website.svg)
 }
 .sidebar__9e3e2 [aria-controls=vanity_url-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/link_plus.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/link_plus.svg)
 }
 .sidebar__9e3e2 [aria-controls=integrations-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/puzzle.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/puzzle.svg)
 }
 .sidebar__9e3e2 [aria-controls=moderation-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/security.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/security.svg)
 }
 .sidebar__9e3e2 [aria-controls=safety-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/security.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/security.svg)
 }
 .sidebar__9e3e2 [aria-controls=guild_automod-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/robot.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/robot.svg)
 }
 .sidebar__9e3e2 [aria-controls=audit_log-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/list.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/list.svg)
 }
 .sidebar__9e3e2 [aria-controls=bans-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/hammer.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/hammer.svg)
 }
 .sidebar__9e3e2 [aria-controls=community-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/people.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/people.svg)
 }
 .sidebar__9e3e2 [aria-controls=onboarding-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/rocket_launch.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/rocket_launch.svg)
 }
 .sidebar__9e3e2 [aria-controls=analytics-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/insights.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/insights.svg)
 }
 .sidebar__9e3e2 [aria-controls=partner-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/handshake.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/handshake.svg)
 }
 .sidebar__9e3e2 [aria-controls=discovery-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/explore.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/explore.svg)
 }
 .sidebar__9e3e2 [aria-controls=community_welcome-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/waving_hand.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/waving_hand.svg)
 }
 .sidebar__9e3e2 [aria-controls=guild_premium-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/server_boost.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/server_boost.svg)
 }
 .sidebar__9e3e2 [aria-controls=role_subscriptions-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/subscriptions.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/subscriptions.svg)
 }
 .sidebar__9e3e2 [aria-controls=members-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/group.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/group.svg)
 }
 .sidebar__9e3e2 [aria-controls=instant_invites-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/person_add.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/person_add.svg)
 }
 .sidebar__9e3e2 [aria-controls=permissions-tab].item__48dda:before{
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/rule.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/rule.svg)
 }
 .educationUpsell_ee1637{
     background-color:rgba(0,0,0,.8)
@@ -7838,38 +7837,38 @@ code{
     cursor:pointer
 }
 .sidebar__9e3e2 .bd-settings-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/betterdiscord.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/betterdiscord.svg)
 }
 .sidebar__9e3e2 .bd-updates-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/updates.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/updates.svg)
 }
 .sidebar__9e3e2 .bd-emotes-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/emote.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/emote.svg)
 }
 .sidebar__9e3e2 .bd-customcss-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/code_braces.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/code_braces.svg)
 }
 .sidebar__9e3e2 .bd-plugins-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/puzzle.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/puzzle.svg)
 }
 .sidebar__9e3e2 .bd-themes-tab.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/palette.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/palette.svg)
 }
 
 .sidebar__9e3e2 .vc-settings.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/vencord.svg);
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/vencord.svg);
 }
 .sidebar__9e3e2 .vc-plugins.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/puzzle.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/puzzle.svg)
 }
 .sidebar__9e3e2 .vc-themes.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/palette.svg)
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/palette.svg)
 }
 .sidebar__9e3e2 .vc-cloud.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/cloud.svg);
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/cloud.svg);
 }
 .sidebar__9e3e2 .vc-backup-restore.item__48dda:before {
-    background-image:url(https://raw.githubusercontent.com/Wolfclan-DEV/Wolfclan-DiscordTheme/main/assets/icons/backup_restore.svg);
+    background-image:url(https://wolfcubclan.github.io/Wolfclan-DiscordTheme/assets/icons/backup_restore.svg);
 }
 
 .bd-modal-wrapper .header{
@@ -8169,14 +8168,14 @@ div#magane div.stickerWindow div.stickers,div#magane div.stickerWindow div.packs
 }
 
 .expandedFolderIconWrapper__458cf > svg[style="color: rgb(88, 101, 242);"] {
-    color: var(--folder-icon-color) !important;
+    color: var(--folder-color) !important;
 }
 
 .folderIconWrapper__72239[style="background-color: rgba(88, 101, 242, 0.4);"] {
-    background-color: var(--folder-bg-color) !important;
+    background-color: var(--folder-background-color) !important;
 }
 .defaultContainer__8ed0b > div > button {
-    background-color: var(--folder-bg-color-preview) !important;
+    background-color: var(--folder-color) !important;
 }
 
 #vc-spotify-player {
@@ -8203,4 +8202,8 @@ div#magane div.stickerWindow div.stickers,div#magane div.stickerWindow div.packs
     flex-grow:1;
     background:linear-gradient(to right, var(--main-color) 50%, transparent);
     margin-left:5px
+}
+
+.theme-dark .headerArtPlaceholder__4f00a {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.3))
 }
