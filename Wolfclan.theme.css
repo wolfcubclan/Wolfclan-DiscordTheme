@@ -93,7 +93,7 @@
     --bd-blue-active: var(--hover-color);
     --font-primary: var(--main-font);
     --folder-color: var(--main-color);
-    --folder-background-color: #3da1a466
+    --folder-background-color: #3da1a467
 }
 @keyframes cv-fade-in{
     from{
